@@ -15,7 +15,7 @@ public class InsertClass {
             MongoCollection<Document> collection = database.getCollection("employees");
 
             // Create a new document
-            Document employee = new Document("name", "Shubham Raj")
+            Document employee = new Document("name", "Ansh Sureka")
                                 .append("age", 21)
                                 .append("department", "Engineering");
             
