@@ -18,7 +18,7 @@ public class MongoDBUpdate {
             MongoCollection<Document> collection = database.getCollection("students");
 
             
-            Document filter = new Document("name", "Shubham");
+            Document filter = new Document("name", "Ansh");
 
             
             Document update = new Document("$set", new Document("age", 21));
