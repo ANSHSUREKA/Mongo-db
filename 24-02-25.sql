@@ -71,7 +71,7 @@ db.Students.find()
 }
 {
   _id: ObjectId('67d9b946726d52f6470e5b76'),
-  name: 'Shubham Raj Sharma',
+  name: 'Ansh Sureka',
   location: 'Bihar'
 }
 db.Students.deleteOne({name:'Shubham V'})
