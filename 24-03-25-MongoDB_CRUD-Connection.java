@@ -31,8 +31,8 @@ public class MongoDB_Connection {
             MongoDatabase database = mongoClient.getDatabase("mydb");
             MongoCollection<Document> collection = database.getCollection("employees");
 
-            // Update the department of an employee with name "Shubham Raj"
-            collection.updateOne(Filters.eq("name", "Shubham Raj"),
+            // Update the department of an employee with name "Ansh Sureka"
+            collection.updateOne(Filters.eq("name", "Ansh Sureka"),
                                  Updates.set("department", "Engineering"));
             
             System.out.println("Document updated successfully.");
